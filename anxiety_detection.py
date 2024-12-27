@@ -10,6 +10,11 @@ import pickle
 from bs4 import BeautifulSoup
 import string
 
+nltk.download('all')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 # Load model and vectorizer
 filename = 'CV_BestModel.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
