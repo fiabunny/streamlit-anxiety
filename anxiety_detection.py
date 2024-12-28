@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 import re
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 from bs4 import BeautifulSoup
 import string
-import nltk
 nltk.download('all')
 nltk.download('punkt')
 nltk.download('wordnet')
