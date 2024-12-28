@@ -11,6 +11,11 @@ import string
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+nltk.download('stopwords')
+
 # Load the cleaned dataset
 df = pd.read_excel('cleaned_data.xlsx') 
 
