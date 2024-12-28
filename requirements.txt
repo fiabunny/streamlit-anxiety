@@ -1,14 +1,7 @@
 numpy==1.24.3
 pandas==2.0.3
 streamlit
-pickle
-sckit-learn
-pip==23.2.1
+scikit-learn
 nltk==3.7
 setuptools
-re
-string
-word_tokenize
-WordNetLemmatizer
-CountVectorizer
-BeautifulSoup
+beautifulsoup4
