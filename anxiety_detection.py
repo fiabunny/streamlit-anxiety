@@ -1,4 +1,5 @@
 # Import necessary libraries
+nltk.download('all')
 import streamlit as st
 import pandas as pd
 import re
@@ -9,7 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 from bs4 import BeautifulSoup
 import string
-nltk.download('all')
+
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
