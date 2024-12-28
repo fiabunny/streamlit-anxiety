@@ -5,6 +5,7 @@ pickle
 sckit-learn
 pip==23.2.1
 nltk==3.7
+setuptools
 re
 string
 word_tokenize
