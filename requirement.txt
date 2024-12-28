@@ -4,7 +4,7 @@ streamlit
 pickle
 sckit-learn
 pip==23.2.1
-nltk
+nltk==3.7
 re
 string
 word_tokenize
