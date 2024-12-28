@@ -1,5 +1,6 @@
 # Import necessary libraries
-nltk.download('all')
+pip install nltk
+
 import streamlit as st
 import pandas as pd
 import re
@@ -11,6 +12,7 @@ import pickle
 from bs4 import BeautifulSoup
 import string
 
+nltk.download('all')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
