@@ -7,3 +7,7 @@ pip==23.2.1
 nltk
 re
 string
+word_tokenize
+WordNetLemmatizer
+CountVectorizer
+BeautifulSoup
