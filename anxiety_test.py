@@ -11,8 +11,6 @@ import string
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
-nltk.download(‘all’)
-
 # Load the cleaned dataset
 df = pd.read_excel('cleaned_data.xlsx') 
 
