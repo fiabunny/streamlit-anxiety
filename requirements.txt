@@ -1,7 +1,7 @@
 numpy>=1.24.0
 pandas==1.4.0
 streamlit==1.10.0
-scikit-learn==1.0.2
+scikit-learn>=1.1.0
 nltk==3.7
 setuptools==59.5.0
 beautifulsoup4==4.10.0
